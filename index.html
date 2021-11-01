@@ -1,1 +1,47 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>How to create and apply patch on Drupal with Composer?</h1>
+    first of all you need to install `cweagans/composer-patches` to your project, then the patch file will be apply by `composer install`
+    so on your project run `composer require cweagans/composer-patches`
+
+    Then you can set where your patched packages should be installed by setting "installer-paths". 
+
+    There is 2 ways you can use patch in your composer file:
+    1- Create your own patch file and use a local file
+    <ul>
+        <li>1- First of all be sure you have default codes on git</li>
+        <li>2- Bring your changes on the codes</li>
+        <li>3- Run `git diff --no--prefix > path/from/composer/dir/to/your/patch/file.patch`. This will export changes to a patch file, but be sure to remove extra code. For example if you patch address module then in the patch file you should have patch after address module direcotry</li>
+        <li>4- Update the composer.json file, add the patch file for your module. This time the patch file directory will be local and started from composer.json locaion. like `"patches": {
+            "drupal/address": {
+                "Drupal fixes": "path/from/composer/dir/to/your/patch/file.patch"
+            },`</li>
+        <li>5- Run composer install to apply patch and verify your changes.</li>
+    </ul>
+    2- Find the patch file from drupal.org and apply it.
+    Like the previous you just need to find the exist patch from https://www.drupal.org/project/address/issues and apply its file. You can find the link of each patch file online and use it on step your composer.json just like this.
+`
+    "drupal/eck": {
+        "Provide Auto Entity Label support": "https://www.drupal.org/files/issues/2018-04-27/eck-Add-support-to-eck-for-auto_entitylabel-2905426-12-D8.patch"
+    },. And then run `composer install` to validate the patch applied. 
+
+    Finally your composer file should have this part: 
+    "extra": {
+        "installer-paths": {
+            "modules/patched/{$name}": [
+                "drupal/eck"
+            ]
+        },
+        "patches": {
+            "drupal/feeds": {
+                "Drupal adding the User role referencing fixed": "https://www.drupal.org/files/issues/2018-05-07/feeds-config-entityreference.patch"
+            }
+        }
+    },
+`
+  </body>
+</html>
