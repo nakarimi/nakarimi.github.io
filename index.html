@@ -13,14 +13,14 @@
     There is 2 ways you can use patch in your composer file:
     1- Create your own patch file and use a local file
     <ul>
-        <li>1- First of all be sure you have default codes on git</li>
-        <li>2- Bring your changes on the codes</li>
-        <li>3- Run `git diff --no--prefix > path/from/composer/dir/to/your/patch/file.patch`. This will export changes to a patch file, but be sure to remove extra code. For example if you patch address module then in the patch file you should have patch after address module direcotry</li>
-        <li>4- Update the composer.json file, add the patch file for your module. This time the patch file directory will be local and started from composer.json locaion. like `"patches": {
+        <li>A- First of all be sure you have default codes on git</li>
+        <li>B- Bring your changes on the codes</li>
+        <li>C- Run `git diff --no--prefix > path/from/composer/dir/to/your/patch/file.patch`. This will export changes to a patch file, but be sure to remove extra code. For example if you patch address module then in the patch file you should have patch after address module direcotry</li>
+        <li>D- Update the composer.json file, add the patch file for your module. This time the patch file directory will be local and started from composer.json locaion. like `"patches": {
             "drupal/address": {
                 "Drupal fixes": "path/from/composer/dir/to/your/patch/file.patch"
             },`</li>
-        <li>5- Run composer install to apply patch and verify your changes.</li>
+        <li>E- Run composer install to apply patch and verify your changes.</li>
     </ul>
     2- Find the patch file from drupal.org and apply it.
     Like the previous you just need to find the exist patch from https://www.drupal.org/project/address/issues and apply its file. You can find the link of each patch file online and use it on step your composer.json just like this.
