@@ -4661,3 +4661,13 @@ h6 {
 a.p-newwhite:hover{
   color: #db9a64 !important;
 } 
+#contact .fa{
+  color: #db9a64;
+  font-size: 20px;
+}
+#contact a:hover .fa{
+  color: #bdc7d9;
+}
+#contact a:hover .single_links span{
+  color: #db9a64;
+}
