@@ -4673,3 +4673,10 @@ a.p-newwhite:hover {
 html {
   scroll-behavior: smooth;
 }
+.primary-color{
+  color: #db9a64 !important;
+}
+.primary-color-hover:hover{
+  color: #bdc7d9 !important;
+
+}
