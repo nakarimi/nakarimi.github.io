@@ -4734,3 +4734,10 @@ html {
 #my-github{
   padding-bottom: 0px !important;
 }
+.githublink{
+  color: #db9a64;
+  text-decoration: underline;
+}
+.githublink:hover{
+  color: #db9a64;
+}
