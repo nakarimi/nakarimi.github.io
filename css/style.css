@@ -4690,6 +4690,15 @@ html {
   border-radius: 25px;
   background-color: #46353c;
   color: #db9a64;
+  transition: .2s;
+}
+.chip:hover{
+  -webkit-box-shadow: inset 0px 0px 0px 1px #db9a64;
+  -moz-box-shadow: inset 0px 0px 0px 1px #db9a64;
+  box-shadow: inset 0px 0px 0px 1px #db9a64;
+  cursor: pointer;
+  background: #3a282e;
+  transform: scale(1.05);
 }
 .chip-1 .chip{
   font-weight: bold;
