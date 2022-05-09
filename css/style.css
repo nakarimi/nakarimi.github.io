@@ -4722,3 +4722,15 @@ html {
   width: 50px;
   border-radius: 50%;
 }
+.github-samples h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #db9a64;
+  padding-bottom: 0px !important;
+}
+.github-samples h4:hover {
+  text-decoration: underline;
+}
+#my-github{
+  padding-bottom: 0px !important;
+}
