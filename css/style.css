@@ -1554,12 +1554,14 @@ h3 {
   padding-left: 13px;
 }
 .testimonial_area .single_testmonial .testmonial_author .thumb {
-  width: 68px;
-  height: 68px;
+  width: 80px;
+  height: 80px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   float: left;
+  top: 5px;
+  position: relative;
 }
 .testimonial_area .single_testmonial .testmonial_author h3 {
   color: #bdc7d9;
