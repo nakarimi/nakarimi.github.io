@@ -91,9 +91,10 @@
         <div class="row align-items-center position-relative">
           <div class="col-lg-9">
             <div class="slider_text">
-              <h3 style="color: #bdc7d9">
-                Hi there, I'm Nasser <br /><span>Software Engineer</span>
-              </h3>
+              <div style="color: #bdc7d9">
+                <span class="say_hi">Hi there</span>, <br> My Name is Nasser <br>I'm a <span class="secondary"><span id="type_element"></span>
+                </span>
+              </div>
               <a class="boxed-btn3-line" href="https://www.upwork.com/workwith/nasserkarimi3"
                 title="Upwork Profile">Work With Me</a>
             </div>
@@ -305,7 +306,7 @@
                   API and Webhooks services.
                   <br />
                   <br />
-                  <!-- <strong>
+                  <strong>
                     • Get Messiah App (<a class="p-newwhite text-underline"
                       href="https://getmessiah.app">Getmessiah.app</a>)
                   </strong>
@@ -313,7 +314,7 @@
                   <strong>
                     • Get Messiah Website (<a class="p-newwhite text-underline"
                       href="https://getmessiah.io">Getmessiah.io</a>)
-                  </strong> -->
+                  </strong>
                 </p>
               </div>
             </div>
@@ -468,6 +469,33 @@
       <div class="row">
         <div class="col-xl-12">
           <div class="testmonial_active owl-carousel">
+            <div class="single_carousel">
+              <div class="row">
+                <div class="col-xl-9 col-md-9">
+                  <div class="single_testmonial">
+                    <p>
+                      I've scoped, implemented and delivered multiple Drupal development projects with Nasser and I have
+                      found him to be an excellent resource who is technically competent. In terms of soft skills,
+                      Nasser is cooperative, has a problem-solving/can-do attitude and delivers on time. I recommend him
+                      for Drupal related development work.”
+                    </p>
+                    <div class="testmonial_author">
+                      <div class="thumb">
+                        <img src="img/client/sultan.jpeg" width="80px" height="80px" alt="" />
+                      </div>
+                      <div class="author_name">
+                        <h3>Sultan Waraich</h3>
+                        <span>Director Of Business Development at
+                          <em>Cloudelligent</em></span>
+                        <br />
+                        <span><i class="fa fa-map-marker"></i>
+                          <i>Islāmābād, Pakistan</i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="single_carousel">
               <div class="row">
                 <div class="col-xl-9 col-md-9">
@@ -901,6 +929,38 @@
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"
+    integrity="sha512-8n76hXrEZEjWeAITXGVFTfxFAXZpj4+waRLRktraeC2Yq/2PuvmtM6Fft5ce0ifobSCCuIwjGSYMI38UfJpiSw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    new TypeIt("#type_element", {
+      speed: 60,
+      loop: true,
+    })
+      .type("Software Engineer!", { delay: 2000 })
+      .delete(null, { delay: 500 })
+      .type("Backend Developer!", { delay: 2000 })
+      .delete(null, { delay: 500 })
+      .type("Frontend Developer!", { delay: 2000 })
+      .delete(null, { delay: 500 })
+      .go();
+
+
+    var today = new Date()
+    var curHr = today.getHours()
+
+    if (curHr < 12) {
+      $('.say_hi').html('Good morning')
+    } else if (curHr < 18) {
+      $('.say_hi').html('Good afternoon')
+    } else if (curHr < 21) {
+      $('.say_hi').html('Good evening')
+    } else if (curHr > 21) {
+      $('.say_hi').html('Good night')    
+    }
+  </script>
+
 </body>
 
 </html>
