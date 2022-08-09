@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merienda:300,300i,400,500,500i,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arima");
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,7 +12,7 @@
   justify-content: start;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +55,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   color: #001d38;
 }
 h1 a,
@@ -79,7 +79,7 @@ p {
   line-height: 28px;
   color: #4d4d4d;
   margin-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 label {
   color: #7e7e7e;
@@ -301,7 +301,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -332,7 +332,7 @@ h3 {
   color: #bdc7d9;
   display: inline-block;
   padding: 19px 41px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 15px;
   font-weight: 500;
   border: 0;
@@ -366,7 +366,7 @@ h3 {
   color: #bdc7d9;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -402,7 +402,7 @@ h3 {
   color: #db9a64 !important;
   display: inline-block;
   padding: 17px 49px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -440,7 +440,7 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 12px 36px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   cursor: pointer;
 }
 .boxed-btn2:hover {
@@ -516,7 +516,7 @@ h3 {
   color: #f91842;
   margin-bottom: 0;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   margin-bottom: 16px;
 }
 @media (max-width: 767px) {
@@ -790,7 +790,7 @@ h3 {
 }
 .header-area .main-header-area .Appointment .book_btn a {
   background: transparent;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   padding: 14px 49px;
   font-size: 16px;
   font-weight: 600;
@@ -825,7 +825,7 @@ h3 {
   font-weight: 500;
   display: inline-block;
   padding: 0 5px 0 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1075,7 +1075,7 @@ h3 {
   }
 }
 .slider_area .single_slider .slider_text div {
-  font-family: "Roboto", sans-serif;
+  font-family: "Arima", sans-serif;
   font-size: 60px;
   /* text-transform: capitalize; */
   font-weight: 300;
@@ -1107,7 +1107,7 @@ h3 {
   font-size: 20px;
   font-weight: 400;
   color: #f91842;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   margin-bottom: 24px;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1272,7 +1272,7 @@ h3 {
   font-weight: 400;
   color: #4d4d4d;
   line-height: 28px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .counter_area {
   padding-bottom: 30px;
@@ -1291,7 +1291,7 @@ h3 {
   font-weight: 400;
   font-size: 70px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   margin-bottom: 10px;
 }
 .counter_area .single_counter p {
@@ -1299,7 +1299,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .counter_area .border_bottom {
   border-bottom: 1px solid #eaeaea;
@@ -1494,7 +1494,7 @@ h3 {
   font-weight: 400;
   color: #001d38;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .team_area .single_team .team_info p {
   font-size: 14px;
@@ -1502,7 +1502,7 @@ h3 {
   color: #727272;
   margin-top: 6px;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .team_area .single_team:hover .team_thumb img {
   width: 100%;
@@ -1540,7 +1540,7 @@ h3 {
   font-size: 20px;
   line-height: 32px;
   margin: 34px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 @media (min-width: 320px) and (max-width: 1500px) {
   .testimonial_area .single_testmonial p br {
@@ -1568,14 +1568,14 @@ h3 {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
   color: #db9a64;
 }
 .testimonial_area .single_testmonial .testmonial_author span {
   font-size: 13px;
   font-weight: 400;
   color: #bdc7d9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .testimonial_area .owl-carousel .owl-item {
   opacity: 0.4;
@@ -1664,7 +1664,7 @@ h3 {
   top: 9px;
   right: 12px;
   height: auto;
-  font-family: "themify";
+  font-family: "Merienda", sans-serif;
   color: #0f2137;
   font-size: 14px;
   left: -24px;
@@ -1968,7 +1968,7 @@ h3 {
   background-image: url(../img/banner/footer_bg.png);
 }
 .footer p {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Merienda", sans-serif !important;
 }
 .footer .footer_top {
   padding-top: 145px;
@@ -2177,7 +2177,7 @@ h3 {
   color: #bdc7d9;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .testmonial_area {
   padding-top: 0;
@@ -3739,7 +3739,7 @@ h6 {
 }
 .blog_details p {
   margin-bottom: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .blog_details a {
   color: #ff8b23;
@@ -4054,7 +4054,7 @@ h6 {
   background: #fff;
   padding: 15px 15px 15px 20px;
   border-left: 2px solid;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 @media (min-width: 768px) {
   .single-post-area .quotes {
@@ -4266,7 +4266,7 @@ h6 {
   margin-bottom: 10px;
   color: #777777;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 .comments-area .btn-reply {
   background-color: transparent;
@@ -4654,7 +4654,7 @@ h6 {
   background-image: url(../img/banner/works_bg.png);
 }
 .experience_area p {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Merienda", sans-serif !important;
 }
 .text-underline {
   text-decoration: underline;
