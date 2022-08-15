@@ -951,13 +951,13 @@
     var curHr = today.getHours()
 
     if (curHr < 12) {
-      $('.say_hi').html('Good morning')
+      $('.say_hi').hide().html("Good morning").fadeIn('slow');
     } else if (curHr < 18) {
-      $('.say_hi').html('Good afternoon')
+      $('.say_hi').hide().html("Good afternoon").fadeIn('slow');
     } else if (curHr < 21) {
-      $('.say_hi').html('Good evening')
+      $('.say_hi').hide().html("Good evening").fadeIn('slow');
     } else if (curHr > 21) {
-      $('.say_hi').html('Good night')    
+      $('.say_hi').hide().html("Good night").fadeIn('slow');    
     }
   </script>
 
